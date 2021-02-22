@@ -1,0 +1,9 @@
+.cartItem{
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  margin: 5px;
+  align-items: center;
+}
+.cartItem__img{
+  width: 30px;
+}
