@@ -1,0 +1,35 @@
+.cart{
+  position: fixed;
+  right: 10px;
+  top: 12%;
+  height: 87vh;
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+}
+.cart__body{
+  padding: 0 10px;
+}
+.cart__footer{
+  width: 23%;
+  position: fixed;
+  padding: 10px 0;
+  bottom: 11px;
+  background-color: white;
+  border-top: 1px solid black;
+}
+.cart__price{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.cart__button{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(85, 247, 120);
+  border-radius: 6px;
+}
+.cart__title{
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
