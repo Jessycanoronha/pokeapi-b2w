@@ -1,9 +1,11 @@
+
 .home{
   width: 80%;
   height: 70vh;
   margin:auto;
   text-align: center;
   padding: 10%;
+  
 }
 .home__title{
   margin: 15%;

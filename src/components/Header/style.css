@@ -1,3 +1,5 @@
+
+
 .header{
   position: fixed;
   width: 100%;
@@ -9,6 +11,13 @@
   align-items: center;
   top: 0;
 }
+
+.header__logo{
+  background-size: 140px 60px;
+  height: 60px;
+  width: 140px;
+}
+
 .header__title{
   color:white;
 }

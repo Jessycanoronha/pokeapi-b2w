@@ -1,12 +1,14 @@
-.store{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  position: relative;
+.store {
+  display: flex;
+  width: 75vw;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 100vh;
 }
-.itens{
+
+.itens {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 10%;
 }
