@@ -1,24 +1,60 @@
+body {
+  background-color: #192935;
+}
 
-.home{
+.home {
   width: 80%;
   height: 70vh;
-  margin:auto;
+  margin: auto;
   text-align: center;
   padding: 10%;
-  
 }
-.home__title{
-  margin: 15%;
+
+.home__title {
+  margin-top: 5%;
+  margin-left: 5%;
 }
-.home__button{
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: local('Coolvetica'), url('../../assets/fonts/coolvetica\ condensed\ rg.ttf');
+}
+
+.home__button {
+  font-family: 'Coolvetica';
   width: 200px;
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
   letter-spacing: 5px;
-  background-color: rgb(123, 128, 127);
+  background-color: transparent;
   color: white;
   cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.home__button:hover {
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  color: rgb(211, 104, 34);
+}
+
+#sharizad {
+  left: 30%;
+  top: 20%;
+  margin-left: 0;
+  margin-top: 0;
+  position: relative;
+  height: 30%;
+  width: 30%;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
