@@ -1,0 +1,22 @@
+.header{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  z-index: 50;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background: linear-gradient(150deg, rgb(209, 24, 24) 15%, #04cff8);
+  align-items: center;
+  top: 0;
+}
+.header__title{
+  color:white;
+}
+.header__input{
+ border-radius: 10px;
+ margin: 0;
+ width: 40%;
+ padding: 10px;
+ height: 5vh;
+ background-color: white;
+}
