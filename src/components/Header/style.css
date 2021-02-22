@@ -3,19 +3,20 @@
 .header{
   position: fixed;
   width: 100%;
+  height: 10%;
   display: flex;
   z-index: 50;
   justify-content: space-between;
   padding: 15px 60px;
-  background: linear-gradient(150deg, rgb(209, 24, 24) 15%, #04cff8);
-  align-items: center;
+  background: linear-gradient(
+    150deg
+    , rgb(221 121 0) 15%, #f1ea96);  align-items: center;
   top: 0;
 }
 
 .header__logo{
-  background-size: 140px 60px;
-  height: 60px;
-  width: 140px;
+  height: 100px;
+  width: 160px;
 }
 
 .header__title{
@@ -26,6 +27,6 @@
  margin: 0;
  width: 40%;
  padding: 10px;
- height: 5vh;
+ height: vh;
  background-color: white;
 }
