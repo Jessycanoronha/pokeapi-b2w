@@ -21,7 +21,7 @@ export default function Card({pokemon, addCart, color}) {
     <div className= "card">
       <div className="card__body">
         <img className="card__img" 
-             src={imagePokemon.front_default || '/no_photography-24px.svg'} 
+             src={imagePokemon.front_default || '../../images/pikachu.gif'} 
              alt={pokemon.name}
         />
         <p> {pokemon.name}</p>
