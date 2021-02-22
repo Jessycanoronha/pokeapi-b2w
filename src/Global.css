@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+input, button{
+  border: none;
+  outline: none;
+}
+img[src$=".svg"]{
+  opacity: 0.3;
+}
+.water{
+  background: linear-gradient(150deg, rgb(44, 19, 158) 15%, #1a9cb6);
+}
+.fire{
+  background: linear-gradient(130deg, rgb(209, 24, 24) 15%, rgba(250, 78, 78, 0.952));
+}
