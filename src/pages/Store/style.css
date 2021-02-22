@@ -1,0 +1,12 @@
+.store{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  position: relative;
+}
+.itens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
