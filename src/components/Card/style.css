@@ -1,0 +1,29 @@
+.card{
+  width: 150px;
+  border-radius: 4px;
+  margin: 15px;
+  box-shadow: 1px 1px 5px grey;
+}
+.card__body{
+  text-align: center;
+  padding: 10px;
+  height: 160px;
+}
+.card__img{
+  width: 80px;
+  margin: 10px;
+}
+.card__footer{
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.card__button{
+  background-color: rgb(221, 60, 60);
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+}
+.water{
+  background-color: #04cff8;
+}
